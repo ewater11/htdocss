@@ -1,0 +1,1003 @@
+[ 2018-03-11T14:06:30+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009540s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 0,14   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014227s ]
+
+[ 2018-03-11T14:06:33+08:00 ] ::1 /index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 14,14   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2018-03-11T14:06:35+08:00 ] ::1 /index.php/Home/Index/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 28,14   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2018-03-11T14:06:36+08:00 ] ::1 /index.php/Home/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 42,14   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2018-03-11T14:06:38+08:00 ] ::1 /index.php/Home/Index/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 56,14   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2018-03-11T14:06:39+08:00 ] ::1 /index.php/Home/Index/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 84,14   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002070s ]
+
+[ 2018-03-11T14:06:40+08:00 ] ::1 /index.php/Home/Index/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 112,14   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2018-03-11T14:06:41+08:00 ] ::1 /index.php/Home/Index/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 126,14   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2018-03-11T14:06:42+08:00 ] ::1 /index.php/Home/Index/index/p/91.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 1260,14   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001368s ]
+
+[ 2018-03-11T14:06:44+08:00 ] ::1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 0,14   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2018-03-11T14:06:50+08:00 ] ::1 /index.php/Home/Index/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 42,14   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2018-03-11T23:11:24+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.068632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008353s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0272s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( id>10 ) LIMIT 1   [ RunTime:0.0522s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` WHERE ( id>10 ) ORDER BY riq desc LIMIT 0,14   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.066798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.066881s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006614s ]
+
+[ 2018-03-11T23:59:09+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 8 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jg` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`riq`,`gold`,`silver`,`silver1`,`pd`,`ru`,`pt`,`rh`,`yr`,`jcpd`,`jcpt` FROM `jg` ORDER BY riq desc LIMIT 0,14   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: row D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Trying to get property of non-object D:\xampp\htdocs\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2018-03-11T23:59:14+08:00 ] ::1 /index.php?search=%E5%8F%91%E9%80%81&select=riq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\xampp\htdocs\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SHOW COLUMNS FROM `jg` [ RunTime:0.0068s ]
+ERR: 1054:Unknown column '发送' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( 发送 ) LIMIT 1  
+ERR: 1054:Unknown column '发送' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jg` WHERE ( 发送 ) LIMIT 1  
+

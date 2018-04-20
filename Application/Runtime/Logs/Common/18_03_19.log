@@ -1,0 +1,24 @@
+[ 2018-03-19T00:09:26+08:00 ] ::1 /index.php/Jg/del/id/[$jg.id].html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Jg
+
+[ 2018-03-19T00:10:47+08:00 ] ::1 /index.php/Jg/del/id/[$jg.id].html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载模块:Jg
+
+[ 2018-03-19T08:33:37+08:00 ] 127.0.0.1 /assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Assets
+
+[ 2018-03-19T15:42:44+08:00 ] ::1 /index.php/assets/img/backgrounds/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Assets
+

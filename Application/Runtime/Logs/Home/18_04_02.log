@@ -1,0 +1,18 @@
+[ 2018-04-02T15:38:04+08:00 ] ::1 /index.php/home/xg/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009444s ]
+ERR: 非法操作:11
+
+[ 2018-04-02T15:49:36+08:00 ] ::1 /index.php/home/xg/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+ERR: 非法操作:11
+

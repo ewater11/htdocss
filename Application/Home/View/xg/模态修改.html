@@ -1,0 +1,370 @@
+<!DOCTYPE html>  
+<html>  
+        <head>
+                <meta charset="utf-8">
+                   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                   <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+               <title>贵金属价格</title>
+               <style type="text/css">
+               body {
+                   margin-top: 0px;
+               }
+               </style>
+                 <link href="__ROOT__/Public/Css/style.css" rel="stylesheet" type="text/css" />
+                    <link href="/Public/Css/mypage.css" rel="stylesheet" type="text/css"/>
+               
+               <link href="/Public/Css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+               </head>
+   <body>  
+        <!--主页面数据 start-->  
+       <div style="margin:50px;">  
+            <table class="table table-bordered">  
+              <thead>  
+                <tr align="center" >
+         
+                    <td width="6%" bgcolor="#CCCCCC" class="pu">&nbsp;</td>
+                    <td width="7%" bgcolor="#CCCCCC" class="pu">日期 </td>
+                  <td width="7%" bgcolor="#CCCCCC" class="pu">黄金</td>
+                  <td width="7%" bgcolor="#CCCCCC" class="pu">1#白银</td>
+                  <td width="6%" bgcolor="#CCCCCC" class="pu">2#白银</td>
+                  <td width="6%" bgcolor="#CCCCCC" class="pu">铂</td>
+                   <td width="6%" bgcolor="#CCCCCC" class="pu">金川铂</td>
+                  <td width="6%" bgcolor="#CCCCCC" class="pu">钌</td>
+                  <td width="6%" bgcolor="#CCCCCC" class="pu">铑</td>
+                  <td width="6%" bgcolor="#CCCCCC" class="pu">钯</td>
+                   <td width="6%" bgcolor="#CCCCCC" class="pu">金川钯</td>
+                  <td width="6%"  bgcolor="#CCCCCC" class="pu">铱</td>
+                  <td width="7%"  bgcolor="#CCCCCC" class="pu">编辑</td>
+                  <td width="5%"  bgcolor="#CCCCCC" class="pu"><a href="{:U('Jg/index')}" class="btn btn-info btn-sm">返回</a></td>
+                                </tr>
+              </thead>  
+              <volist name="select" id="jg">
+                <td > </td>                       
+                <td  class="active" type="date">{$jg.riq}</td>
+                <td >{$jg.gold}</td>
+                <td class="active">{$jg.silver}</td>
+                <td >{$jg.silver1}</td>
+                <td class="active">{$jg.pt}</td>
+                <td >{$jg.jcpt}</td>
+                <td class="active">{$jg.ru}</td>
+                <td  >{$jg.rh}</td>
+                <td class="active">{$jg.pd}</td>
+                <td >{$jg.jcpd}</td>
+                <td  class="active">{$jg.yr}</td>
+                <input type="hidden" name="id" value="{$jg.id}">
+                <td style="color:#f00;cursor:pointer;" onclick="editInfo(this)" >修改</td> 
+                             </tr>
+                  </volist>
+               
+            </table>  
+        </div>  
+        <!--主页面数据 start-->  
+          
+        <!--价格修改模态窗口 -->  
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">  
+            <div class="modal-dialog" role="document">  
+                <div class="modal-content">  
+                    <div class="modal-header">  
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">  
+                            <span aria-hidden="true">×</span>  
+                        </button>  
+                       <h4 class="modal-title" id="myModalLabel">价格修改</h4>  
+                    </div>  
+                    <div class="modal-body modal-li">  
+                       <form action="{:U('Xg/edit')}" method="post" id="form2">  
+                         <table >
+                                  <tr>
+                                 <td>
+                                        <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">日期</span>
+                                                <input name="riq" size="18" type="date" class="form-control " id="riq1" placeholder="请输入日期"> 
+                                        </div>
+                                </td>
+                                 <td>
+                                 <div class="input-group">
+                                      <span class="input-group-addon" id="basic-addon1">铂</span>
+                                      <input name="pt" size="20" type="text" class="form-control " id="pt1" placeholder="请输入铂价格">  
+									 </div>
+                                   </td>
+                                 </tr>
+                               <tr>
+                                 <td >
+                                 <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">钯</span>
+                                                <input size="20" name="pd" class="form-control "  size="15" id="pd1" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+                                   </div> 
+                                   </td>
+                                 <td>
+                                  <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">铑</span>
+                                                <input size="20" name="rh" class="form-control " size="15" id="rh1" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+								   </td>  
+                          </tr> 
+                                  <tr>    <td >
+                                 <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">铱</span>
+                                                <input size="20" name="yr" class="form-control " type="text" size="15" id="yr1" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div></td>
+                                 <td >
+                                 <div class="input-group" >
+                                                <span class="input-group-addon" id="basic-addon1">钌</span>
+                                                <input size="20" size="20"  name="ru" class="form-control " type="text" size="15" id="ru1" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+                                   </td>
+                               </tr>
+                               <tr>
+                                 <td >
+                                  <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">金</span>
+                                               <input size="20" name="gold" class="form-control " type="text" id="gold1" size="15" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')"></div> 
+                                                </td>
+                                 <td><div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">1#银</span>
+                                                <input size="17.5" name="silver" class="form-control " type="text" id="silver1" size="15" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+                                               </td>
+                                 </tr>
+                               <tr>
+                                 <td ><div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">2#银</span>
+                                                <input size="17.5" name="silver1" class="form-control " type="text" id="silver2" size="15" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+                                                </td>
+                                 <td >
+                                               <div class="input-group">
+                                                <span class="input-group-addon" id="basic-addon1">金川铂</span>
+                                                <input size="16" name="jcpt" class="form-control " type="text" id="jcpt1" size="15" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+                              </td>
+                               </tr>
+                               <tr>
+                                 <td >
+                                 <div class="input-group" item-width="100%">
+                                                <span class="input-group-addon" id="basic-addon1">金川钯</span>
+                                                 <input size="16" name="jcpd" class="form-control " type="text" id="jcpd1" size="15" onkeyup="if(isNaN(value))execCommand('undo')" onafterpaste="if(isNaN(value))execCommand('undo')">
+									 </div>
+                                </td>
+                                 <td > <input size="16" name="id"  type="hidden" id="id1" size="15" ></td>
+                                
+                               </tr>
+                               
+                               <tr>
+                                    <td colspan="4" align="center" ><input  class="btn btn-primary" type="Submit" name="Submit"  value="修改"/> <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>  　</td>
+                                  </tr>
+                           </table>
+                       </form>  
+                   </div>  
+                   <div class="modal-footer">  
+                      
+                   </div>  
+               </div>  
+           </div>  
+        </div>  
+       <!--end-模态窗口 -->  
+       <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/Public/bootstrap/js/bootstrap.min.js"> </script>
+        <script >
+        //触发模态框的同时调用此方法    
+  function editInfo(obj) {  
+    var id1 = $(obj).prev().val();  
+        var tds= $(obj).parent().find('td'); 
+        
+       $('#riq1').val(tds.eq(1).text());  
+       $('#gold1').val(tds.eq(2).text());  
+       $('#silver1').val(tds.eq(2).text()); 
+       $('#silver2').val(tds.eq(4).text());
+        $('#pt1').val(tds.eq(5).text()); 
+        $('#jcpt1').val(tds.eq(6).text()); 
+        $('#ru1').val(tds.eq(7).text()); 
+        $('#rh1').val(tds.eq(8).text()); 
+        $('#pd1').val(tds.eq(9).text()); 
+        $('#jcpd1').val(tds.eq(10).text()); 
+        $('#yr1').val(tds.eq(11).text()); 
+        $('#id1').val(id1);
+        $('#modal1').modal('show'); 
+             
+    }    
+    //提交更改    
+    function update() {    
+        //获取模态框数据    
+            
+        $.ajax({    
+               
+               type: 'post',
+   url : "{:U('Xg/edit')}",
+   data: {id:id1},
+   success:function(msg){
+   alert(msg);
+   window.location.reload(); 
+               }    
+           });   
+           $('#modal').modal('hide'); 
+    }    
+
+        
+        </script>  
+   </body>  
+</html>    
+
+
+
+
+
+
+<?php 
+namespace Home\Controller;
+use Think\Controller;
+class XgController extends Controller{
+public function index(){
+ { $cxfs=I('get.cxfs');
+		$where = I('get.search'); 
+		
+		if (!empty($where))
+		{
+			switch ($cxfs)
+			{
+				case  jqcx : 	 
+					$map['riq|gold|silver|silver1|pd|ru|pt|rh|yr|jcpd|jcpt'] =$where;
+					break;
+
+				case mhcx:
+					$map['riq|gold|silver|silver1|pd|ru|pt|rh|yr|jcpd|jcpt'] =array('like','%'.$where.'%');
+					break;
+
+			}
+	    	}
+			
+	
+		else
+		{
+			$map="";
+		}
+		//$cha= $_GET['select1'];
+		
+    $m = M('jg');   
+    
+   $count = $m->where($map)->count();
+		//$Page       = new \Think\Page($count,16);// 
+     $p = getpage($count,13);
+    $list = $m->field(true)->where($map)->order('riq desc')->limit($p->firstRow, $p->listRows)->select();
+	  
+     $this->assign('select', $list); // 赋值数据集
+     $this->assign('page', $p->show()); // 赋值分页输出
+    $this->display();
+  
+
+	
+    }
+}
+public function indexedit(){
+	{ $cxfs=I('get.cxfs');
+		   $where = I('get.search'); 
+		   
+		   if (!empty($where))
+		   {
+			   switch ($cxfs)
+			   {
+				   case  jqcx : 	 
+					   $map['riq|gold|silver|silver1|pd|ru|pt|rh|yr|jcpd|jcpt'] =$where;
+					   break;
+   
+				   case mhcx:
+					   $map['riq|gold|silver|silver1|pd|ru|pt|rh|yr|jcpd|jcpt'] =array('like','%'.$where.'%');
+					   break;
+   
+			   }
+			   }
+			   
+	   
+		   else
+		   {
+			   $map="";
+		   }
+		   //$cha= $_GET['select1'];
+		   
+	   $m = M('jg');   
+	   
+	  $count = $m->where($map)->count();
+		   //$Page       = new \Think\Page($count,16);// 
+		$p = getpage($count,13);
+	   $list = $m->field(true)->where($map)->order('riq desc')->limit($p->firstRow, $p->listRows)->select();
+		 
+		$this->assign('select', $list); // 赋值数据集
+		$this->assign('page', $p->show()); // 赋值分页输出
+	   $this->display();
+	 
+   
+	   
+	   }
+   }
+public function del(){
+$map['id'] = I('post.id');
+$tab = M('jg');
+$info = $tab->where($map)->delete();
+if($info){
+$this->ajaxReturn("删除成功");
+}else{
+$this->ajaxReturn("删除失败");
+}
+ 
+}
+public function add()
+	{
+	if(IS_POST)	{
+		$data=I('post.');
+		
+		
+		
+	$rules = array(
+     array('riq','require','日期必须填入！'), //默认情况下用正则进行验证
+     array('riq','','该日期记录已存在！',0,'unique',1), // 在新增的时候验证name字段是否唯一
+    //array('pt','number_float','只能输入数字！'), // 当值不为空的时候判断是否在一个范围内
+);	
+	
+		
+	$Form1 =D('jg')	;
+		if($Form1->validate($rules)->create($data))
+		{
+			
+			$result =$Form1->add($data);
+			if($result){
+				$this->success('价格添加成功！');
+			}else{
+				$this->error('价格添加错误！');
+			}
+		}else{
+				$this->error($Form1->getError());
+			}
+			
+			
+		
+	}
+  
+} 
+public function edit(){
+	if (IS_POST){
+$id = I('post.id');
+$map = I('post.');
+$rules = array(
+	array('riq','require','日期必须填入！'), //默认情况下用正则进行验证
+	
+);
+$Form2 = D('jg');
+if($Form2->validate($rules)->create($map))
+{
+$res = $Form2->where('id='.$id)->save();
+if($res){
+	$this->success('价格修改成功！');
+}else{
+	$this->error('价格未修改！');
+}
+}else{
+	$this->error($Form2->getError());
+}
+}
+}
+}
+
+
