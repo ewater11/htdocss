@@ -32,7 +32,7 @@ public function index(){
     
    $count = $m->where($map)->count();
 		//$Page       = new \Think\Page($count,16);// 
-     $p = getpage($count,13);
+     $p = getpage($count,15);
     $list = $m->field(true)->where($map)->order('riq desc')->limit($p->firstRow, $p->listRows)->select();
 	  
      $this->assign('select', $list); // 赋值数据集
@@ -73,7 +73,7 @@ public function indexedit(){
 	   
 	  $count = $m->where($map)->count();
 		   //$Page       = new \Think\Page($count,16);// 
-		$p = getpage($count,13);
+		$p = getpage($count,15);
 	   $list = $m->field(true)->where($map)->order('riq desc')->limit($p->firstRow, $p->listRows)->select();
 		 
 		$this->assign('select', $list); // 赋值数据集

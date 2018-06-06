@@ -89,8 +89,7 @@
           增加客户
         </button>
         <!--模态层 -->
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="/Public/bootstrap/js/bootstrap.min.js"> </script>
+      
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -276,112 +275,79 @@
 
 
   <!--显示客户信息end-->
-  <table class="table table-bordered" name="select" id="vo">
-   
-    <tr align="center" height="10">
-      <td width="16%"   align="center" class="active">
+  <table class="table table-bordered table-condensed" name="select" id="kh">
+       <tr align="center" height="10">
+      <td width="16%" colspan="2"   align="center" class="active">
         名称：
       </td>
-      <td height="10" align="center"><?php echo ($vo["k_m"]); ?></td>
-      <td align="center" width="16%" class="active">地址： </td>
-      <td  align="center"><?php echo ($vo["k_shdz"]); ?></td>
+      <td height="10" colspan="2" align="center"><?php echo ($vo["k_m"]); ?></td>
+      <td width="16%" colspan="2" align="center" class="active">地址： </td>
+      <td colspan="2"  align="center"><?php echo ($vo["k_shdz"]); ?></td>
     </tr>
     <tr align="center">
-      <td class="active" align="center">
+        <td colspan="2" align="center" class="active">
+            收货地：
+          </td>
+          <td colspan="2">
+            <?php echo ($vo["k_shdq"]); ?>
+          </td>
+      <td height="26" colspan="2" align="center" class="active">
         收货单位名称：</td>
-      <td align="center" ><?php echo ($select["k_shm"]); ?></td>
-      <td class="active" align="center">
-        收货地：
-      </td>
-      <td>
-        <?php echo ($vo["k_shdq"]); ?>
-      </td>
-    </tr>
-    <tr align="center">
-      <td class="active" align="center">
-        联系人： </td>
-      <td width="28%">
-        <?php echo ($vo["k_lxr"]); ?>
-      </td>
-      <td class="active" >电话：</td>
-      <td><?php echo ($vo["k_tel"]); ?></td>
-    </tr>
-    <tr align="center">
-      <td class="active"  align="center">
-        手机：
-        <td><?php echo ($vo["k_sj"]); ?></td>
-        <td class="active">传真：</td>
-        <td><?php echo ($vo["k_fax"]); ?></td>
-    </tr>
-    <tr align="center">
-      <td class="active"  align="center">
-        邮政编码：
-      </td>
-      <td align="center">
-        <?php echo ($vo["k_yb"]); ?>
-      </td>
-      <td class="active" align="center">货运方式：</td>
-      <td align="center">
-        <?php echo ($vo["k_hy"]); ?></td>
-    </tr>
-    <tr align="center">
-      <td class="active"  align="center">
-        Email：
-      </td>
-      <td>
-        <?php echo ($vo["k_email"]); ?>
-      </td>
-      <td class="active">回款方式：</td>
-      <td><?php echo ($vo["k_hkfs"]); ?></td>
-    </tr>
-    <tr align="center">
+      <td colspan="2" align="center" ><?php echo ($vo["k_shm"]); ?></td>
       
-      <td class="active" align="center">
-        备注：
-      </td>
-      <td colspan="3"><?php echo ($vo["k_bz"]); ?></td>
+  </tr>
+  <tr>
+    <tr >
+      <td class="active" align="center">联系人 </td>
+      <td align="center" class="active">手机</td>
+      <td class="active" align="center">电话</td>
+      <td align="center" class="active">传真</td>
+      <td align="center" class="active">邮政编码</td>
+      <td align="center" class="active">Email </td>
+      <td align="center" class="active">货运方式</td>
+      <td align="center" class="active">回款方式</td>
     </tr>
-    </volist>
+    
+    <tr >
+      <td><?php echo ($vo["k_lxr"]); ?></td>
+      <td><?php echo ($vo["k_sj"]); ?></td>                
+      <td><?php echo ($vo["k_fax"]); ?></td>
+       <td><?php echo ($vo["k_tel"]); ?></td>
+        <td><?php echo ($vo["k_yb"]); ?> </td>
+        <td><?php echo ($vo["k_email"]); ?> </td>
+        <td><?php echo ($vo["k_hy"]); ?></td>
+        <td><?php echo ($vo["k_hkfs"]); ?>/<?php echo ($vo["k_id"]); ?></td>
+    </tr>
+   
+  <tr align="center">
+      <td colspan="2"  align="center" class="active">
+        备注：</td>
+      <td colspan="6" ><?php echo ($vo["k_bz"]); ?></td>
+    </tr>
+  </tr>
   </table>
   <!--显示客户信息end-->
 
 
 
 
-  <table align="center" class="table  table-hover" id="g_table">
+  <table align="center" class="table  table-hover" id="g_table" name="list">
     <tr align="center">
-      <td width="15%" bgcolor="#CCCCCC">客户名称</td>
-      <td width="7%" bgcolor="#CCCCCC">手机</td>
-      <td width="7%" bgcolor="#CCCCCC">联系人</td>
+      <td width="15%" bgcolor="#CCCCCC">合同号</td>
+      <td width="7%" bgcolor="#CCCCCC">订货日期</td>
+      <td width="7%" bgcolor="#CCCCCC">交货日期</td>
       <td width="6%" bgcolor="#CCCCCC">电话</td>
       <td width="7%" bgcolor="#CCCCCC">收货地区</td>
       <td width="4%" bgcolor="#CCCCCC"></td>
     </tr>
-    <volist name="select" id="vo">
-      <tr align="center">
-        <td>
-          <a href="/index.php/Home/Kh/khmx/k_id/<?php echo ($vo["k_id"]); ?>"><?php echo ($vo["k_m"]); ?></a>
-        </td>
-        <td><?php echo ($vo["k_sj"]); ?></td>
-        <td><?php echo ($vo["k_lxr"]); ?></td>
-        <td><?php echo ($vo["k_tel"]); ?></td>
-        <td><?php echo ($vo["k_shdq"]); ?></td>
-        <input type="hidden" name="k_hkfs" value="<?php echo ($vo["k_hkfs"]); ?>">
-        <input type="hidden" name="k_shm" value="<?php echo ($vo["k_shm"]); ?>">
-        <input type="hidden" name="k_shdz" value="<?php echo ($vo["k_shdz"]); ?>">
-        <input type="hidden" name="k_hy" value="<?php echo ($vo["k_hy"]); ?>">
-        <input type="hidden" name="k_fax" value="<?php echo ($vo["k_fax"]); ?>">
-        <input type="hidden" name="k_yb" value="<?php echo ($vo["k_yb"]); ?>">
-        <input type="hidden" name="k_email" value="<?php echo ($vo["k_email"]); ?>">
-        <input type="hidden" name="k_bz" value="<?php echo ($vo["k_bz"]); ?>">
-        <input type="hidden" name="id" value="<?php echo ($vo["k_id"]); ?>">
+    <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo1): $mod = ($i % 2 );++$i;?><tr align="center">
+        <td><?php echo ($vo1["h_h"]); ?></td>
+        <td><?php echo ($vo1["h_date"]); ?></td>
+        <td><?php echo ($vo1["h_jdate"]); ?></td>
+        <td><?php echo ($vo1["h_h"]); ?></td>
         <td onclick="show(this);" type="btn btn-primary btn-xs active">详细信息</td>
-      </tr>
-    
-
-
-
-    <tr>
+      </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+        <tr>
       <td colspan="14" align="right" bgcolor="#cccccc" class="pu">
 
       </td>

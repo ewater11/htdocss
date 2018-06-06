@@ -1,13 +1,13 @@
 <?php
 namespace Home\Controller;
+
 use Think\Controller;
 class KhController extends Controller{
     public function index(){
          { $cxfs=I('get.cxfs');
             $where = I('get.search'); 
              if (!empty($where))
-                   {
-                       switch ($cxfs)
+                   {  switch ($cxfs)
                        {
                            case  jqcx : 	 
                            $map['k_m|k_shdz|k_lxr|k_shm|k_tel|k_sj|k_email|k_hkfs']=$where;
@@ -28,7 +28,7 @@ class KhController extends Controller{
                
               $count = $m->where($map)->count();
                    //$Page       = new \Think\Page($count,16);// 
-                $p = getpage($count,13);
+                $p = getpage($count,15);
                $list = $m->field(true)->where($map)->order('k_m desc,k_id desc')->limit($p->firstRow, $p->listRows)->select();
                  
                 $this->assign('select', $list); // 赋值数据集
@@ -59,7 +59,7 @@ class KhController extends Controller{
                $m = M('k');   
                $count = $m->where($map)->count();
                       //$Page       = new \Think\Page($count,16);// 
-                   $p = getpage($count,13);
+                   $p = getpage($count,15);
                   $list = $m->field(true)->where($map)->order('k_m desc,k_id desc')->limit($p->firstRow, $p->listRows)->select();
                     
                    $this->assign('select', $list); // 赋值数据集
@@ -145,23 +145,50 @@ public function edit(){
     }
 }
 public function khmx(){
-
-    $map=I('get.k_id');
+   $map=I('get.k_id');
     $res=M('k');
     
     $mx = $res->where('k_id='.$map)->select();
-    if($mx){
+        if($mx){
         $this->assign('select',$mx);
-        $this->display();
+        
     }else{
         $this->error();
     }
+    
+    { $cxfs=I('get.cxfs');
+        $where = I('get.search'); 
+         if (!empty($where))
+               {  switch ($cxfs)
+                   {
+                       case  jqcx : 	 
+                       $map1['h_h']=$where;
+                           break;
+       
+                       case mhcx:
+                       $map1['h_h']=array('like','%'.$where.'%');
+                           break;
+                          }
+                   }
+                 else
+               {
+                   $map1="";
+               }
+               $ht=D('KhRelation');
+               
+          $count = $ht->relation(true)->where('k_id='.$map,$map1)->count();
+               //$Page       = new \Think\Page($count,16);// 
+            $p = getpage($count,10);
+           $list = $ht->field(true)->where('k_id='.$map,$map1)->order('h_id desc')->limit($p->firstRow, $p->listRows)->select();
+             
+            $this->assign('list', $list); // 赋值数据集
+            $this->assign('page', $p->show()); // 赋值分页输出
+           $this->display();
+           }
     }
-
-                
-
-   
 }
+
+
 
 
 

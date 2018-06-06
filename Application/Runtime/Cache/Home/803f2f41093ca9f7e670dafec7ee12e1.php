@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
  <meta charset="utf-8">
@@ -11,7 +11,7 @@ body {
 	margin-top: 0px;
 }
 </style>
-  <link href="__ROOT__/Public/Css/style.css" rel="stylesheet" type="text/css" />
+  <link href="/Public/Css/style.css" rel="stylesheet" type="text/css" />
      <link href="/Public/Css/mypage.css" rel="stylesheet" type="text/css"/>
 
 <link href="/Public/Css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -30,14 +30,14 @@ body {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{:U('Index/show')}">首页</a>
+      <a class="navbar-brand" href="<?php echo U('Index/show');?>">首页</a>
     </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="{:U('Kh/index')}">客户管理<span class="sr-only">(current)</span></a></li>
-        <li><a href="{:U('Jg/index')}">贵金属价格</a></li>
-        <li><a href="{:U('Jg/index')}">打印</a></li>
+        <li class="active"><a href="<?php echo U('Kh/index');?>">客户管理<span class="sr-only">(current)</span></a></li>
+        <li><a href="<?php echo U('Jg/index');?>">贵金属价格</a></li>
+        <li><a href="<?php echo U('Jg/index');?>">打印</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">报表 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -51,7 +51,7 @@ body {
           </ul>
         </li>
       </ul>
-      <form action="{:U('Jg/index')}" method="get" class="navbar-form navbar-left">
+      <form action="<?php echo U('Jg/index');?>" method="get" class="navbar-form navbar-left">
         <input type="text" name="search" value="" size="18">
         <label>
             <div class="input-group" >                      
@@ -85,7 +85,7 @@ body {
       <div class="modal-body">
       
       <!--模态层 -->
-      <form action="{:U('Jg/add')}" method="post" id="form1">  
+      <form action="<?php echo U('Jg/add');?>" method="post" id="form1">  
         <table align="center" >
           <tr>
            <td >
@@ -172,7 +172,7 @@ body {
   
  <!--模态层 -->
  <ul class="nav navbar-nav navbar-right">
-    <li><a href="{:U('Kh/khedit')}" >编辑</a></li>
+    <li><a href="<?php echo U('Kh/khedit');?>" >编辑</a></li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
       <ul class="dropdown-menu">
@@ -205,33 +205,31 @@ body {
         <td width="6%" >钯</td>
          <td width="6%" >金川钯</td>
         <td width="6%"  >铱</td>
-        <td width="7%"  ><a href="{:U('Jg/indexedit')}"class="btn btn-info btn-xs">编辑</a></td>
+        <td width="7%"  ><a href="<?php echo U('Jg/indexedit');?>"class="btn btn-info btn-xs">编辑</a></td>
         
                       </tr>
  
 
-<volist name="select" id="jg"><tr  align="center">
+<?php if(is_array($select)): $i = 0; $__LIST__ = $select;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ht): $mod = ($i % 2 );++$i;?><tr  align="center">
                        <td > </td>                       
-                        <td  class="active" >{$jg.riq}</td>
-                        <td >{$jg.gold}</td>
-                        <td class="active">{$jg.silver}</td>
-                        <td >{$jg.silver1}</td>
-                        <td class="active">{$jg.pt}</td>
-                        <td >{$jg.jcpt}</td>
-                        <td class="active">{$jg.ru}</td>
-                        <td  >{$jg.rh}</td>
-                        <td class="active">{$jg.pd}</td>
-                        <td >{$jg.jcpd}</td>
-                        <td  class="active">{$jg.yr}</td>
-                        <input type="hidden" name="id" value="{$jg.id}">
+                        <td  class="active" ><?php echo ($ht["h_h"]); ?></td>
+                        <td ><?php echo ($jg["gold"]); ?></td>
+                        <td class="active"><?php echo ($jg["silver"]); ?></td>
+                        <td ><?php echo ($jg["silver1"]); ?></td>
+                        <td class="active"><?php echo ($jg["pt"]); ?></td>
+                        <td ><?php echo ($jg["jcpt"]); ?></td>
+                        <td class="active"><?php echo ($jg["ru"]); ?></td>
+                        <td  ><?php echo ($jg["rh"]); ?></td>
+                        <td class="active"><?php echo ($jg["pd"]); ?></td>
+                        <td ><?php echo ($jg["jcpd"]); ?></td>
+                        <td  class="active"><?php echo ($jg["yr"]); ?></td>
+                        <input type="hidden" name="id" value="<?php echo ($jg["id"]); ?>">
 	<td  >                        
                         
                         
                        </td>
                         
-  </tr>
-                      	
-</volist>
+  </tr><?php endforeach; endif; else: echo "" ;endif; ?>
  
      
 
@@ -242,9 +240,9 @@ body {
  </tr>
   
       <tr class="content">
-         <!--<td colspan="3" bgcolor="#FFFFFF"> {$page}</td>-->
+         <!--<td colspan="3" bgcolor="#FFFFFF"> <?php echo ($page); ?></td>-->
       <td colspan="14" bgcolor="#FFFFFF"><div class="pages" align="center">
-             {$page}
+             <?php echo ($page); ?>
         </div></td> 
       </tr>
 
@@ -277,12 +275,12 @@ var post_files = {};
 for(var i = 0 , j = input_files.length;i < j;i++){
 post_files['clo_' + i] = input_files[i].value;
 }
-// $.post("{:U('ajax/add')}",post_files,function(msg){
+// $.post("<?php echo U('ajax/add');?>",post_files,function(msg){
 // debugger;
 // })
 $.ajax({
 type: 'post',
-url : "{:U('Jg/add')}",
+url : "<?php echo U('Jg/add');?>",
 data: {post_files},
 success:function(msg){
 alert(msg);
@@ -298,7 +296,7 @@ function del(obj){
 var id = $(obj).parent().prev().prev().val();
 $.ajax({
 type: 'post',
-url: "{:U('Jg/del')}",
+url: "<?php echo U('Jg/del');?>",
 data: {id:id},
 success:function(msg){
 alert(msg);
@@ -323,7 +321,7 @@ post_files['clo_' + i] = input_files[i].value;
 }
 $.ajax({
 type: 'post',
-url : "{:U('Jg/edit')}",
+url : "<?php echo U('Jg/edit');?>",
 data: {post_files:post_files,id:id},
 success:function(msg){
 alert(msg);

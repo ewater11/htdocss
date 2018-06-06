@@ -189,23 +189,23 @@ body {
 <!--导航条-->
 </td></tr></table>
 
-<table width="900" border="0" cellpadding="0" cellspacing="1"  align="center" class="table table-bordered" id="g_table">
+<table width="900" border="0" cellpadding="0" cellspacing="1"  align="center" class="table  table-hover table-bordered table-condensed" id="g_table">
  
- <tr align="center" >
+ <tr align="center" class="info">
          
-          <td width="6%" bgcolor="#CCCCCC" class="pu">&nbsp;</td>
-          <td width="7%" bgcolor="#CCCCCC" class="pu">日期 </td>
-        <td width="7%" bgcolor="#CCCCCC" class="pu">黄金</td>
-        <td width="7%" bgcolor="#CCCCCC" class="pu">1#白银</td>
-        <td width="6%" bgcolor="#CCCCCC" class="pu">2#白银</td>
-        <td width="6%" bgcolor="#CCCCCC" class="pu">铂</td>
-         <td width="6%" bgcolor="#CCCCCC" class="pu">金川铂</td>
-        <td width="6%" bgcolor="#CCCCCC" class="pu">钌</td>
-        <td width="6%" bgcolor="#CCCCCC" class="pu">铑</td>
-        <td width="6%" bgcolor="#CCCCCC" class="pu">钯</td>
-         <td width="6%" bgcolor="#CCCCCC" class="pu">金川钯</td>
-        <td width="6%"  bgcolor="#CCCCCC" class="pu">铱</td>
-        <td width="7%"  bgcolor="#CCCCCC" class="pu"><a href="<?php echo U('Jg/indexedit');?>"class="btn btn-info btn-sm">编辑</a></td>
+          <td width="6%" >&nbsp;</td>
+          <td width="7%">日期 </td>
+        <td width="7%" >黄金</td>
+        <td width="7%">1#白银</td>
+        <td width="6%" >2#白银</td>
+        <td width="6%" >铂</td>
+         <td width="6%" >金川铂</td>
+        <td width="6%" >钌</td>
+        <td width="6%" >铑</td>
+        <td width="6%" >钯</td>
+         <td width="6%" >金川钯</td>
+        <td width="6%"  >铱</td>
+        <td width="7%"  ><a href="<?php echo U('Jg/indexedit');?>"class="btn btn-info btn-xs">编辑</a></td>
         
                       </tr>
  
