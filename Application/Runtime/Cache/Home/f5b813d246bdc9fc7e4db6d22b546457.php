@@ -34,8 +34,8 @@ body {
            <!-- Collect the nav links, forms, and other content for toggling -->
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
        <ul class="nav navbar-nav">
-         <li class="active"><a href="<?php echo U('Kh/index');?>">客户管理<span class="sr-only">(current)</span></a></li>
-         <li><a href="<?php echo U('Jg/index');?>">贵金属价格</a></li>
+         <li ><a href="<?php echo U('Kh/index');?>">客户管理<span class="sr-only">(current)</span></a></li>
+         <li class="active"><a href="<?php echo U('Jg/index');?>">贵金属价格</a></li>
          <li><a href="<?php echo U('Jg/index');?>">打印</a></li>
          <li class="dropdown">
            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">报表 <span class="caret"></span></a>

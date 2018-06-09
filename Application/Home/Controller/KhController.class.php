@@ -175,8 +175,7 @@ public function khmx(){
                    $map1="";
                }
                $ht=D('KhRelation');
-               
-          $count = $ht->relation(true)->where('k_id='.$map,$map1)->count();
+               $count = $ht->relation(true)->where('k_id='.$map,$map1)->count();
                //$Page       = new \Think\Page($count,16);// 
             $p = getpage($count,10);
            $list = $ht->field(true)->where('k_id='.$map,$map1)->order('h_id desc')->limit($p->firstRow, $p->listRows)->select();

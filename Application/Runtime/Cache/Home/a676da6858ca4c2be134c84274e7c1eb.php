@@ -16,7 +16,6 @@
   <link href="/Public/Css/mypage.css" rel="stylesheet" type="text/css" />
   <link href="/Public/Css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
   <!--导航条-->
   <nav class="navbar navbar-default">
@@ -71,7 +70,7 @@
             </ul>
           </li>
         </ul>
-        <form action="<?php echo U('Kh/index');?>" method="get" class="navbar-form navbar-left">
+        <form action="<?php echo U('Kh/khmx');?>" method="get" class="navbar-form navbar-left">
           <input type="text" name="search" value="" size="18">
           <label>
             <div class="input-group">
@@ -326,12 +325,7 @@
     </tr>
   </tr>
   </table>
-  <!--显示客户信息end-->
-
-
-
-
-  <table align="center" class="table  table-hover" id="g_table" name="list">
+    <table align="center" class="table  table-hover" id="g_table" name="list">
     <tr align="center">
       <td width="15%" bgcolor="#CCCCCC">合同号</td>
       <td width="7%" bgcolor="#CCCCCC">订货日期</td>
@@ -344,7 +338,7 @@
         <td><?php echo ($vo1["h_h"]); ?></td>
         <td><?php echo ($vo1["h_date"]); ?></td>
         <td><?php echo ($vo1["h_jdate"]); ?></td>
-        <td><?php echo ($vo1["h_h"]); ?></td>
+        <td><?php echo ($vo1["h_hkfs"]); ?></td>
         <td onclick="show(this);" type="btn btn-primary btn-xs active">详细信息</td>
       </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         <tr>

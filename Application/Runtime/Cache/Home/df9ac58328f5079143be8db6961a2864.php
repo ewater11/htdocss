@@ -223,7 +223,7 @@
           </div>
             <!--模态层 -->
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="<?php echo U('Kh/khedit');?>" >编辑</a></li>
+              <li></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -246,7 +246,7 @@
         <td width="7%" >联系人</td>
         <td width="6%"  >电话</td>
         <td width="7%"  >收货地区</td>
-        <td width="4%" ></td>
+        <td width="4%" ><a href="<?php echo U('Kh/khedit');?>" >编辑</a></td>
 
               </tr>
       <?php if(is_array($select)): $i = 0; $__LIST__ = $select;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr align="center">
